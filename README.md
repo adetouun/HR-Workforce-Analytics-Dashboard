@@ -1,1 +1,2 @@
 # HR_analytics
+This project explores a real-world HR dataset of 1,021 employee records, focusing on workforce structure, salary distribution, performance patterns, and demographic insights. The goal was to clean messy data, prepare a structured dataset, and build an interactive Excel dashboard to help company leaders make data-driven decisions about staffing, compensation, and employee performance
