@@ -61,6 +61,13 @@ HR Strategy Dashboard divided into three sections:
 
 - *Dashboard Visual*: The Column Chart shows that 'Poor' is the largest single segment of performers.
 
+  ## Dashboard Overview
+
+![HR Workforce Analytics Dashboard](https://raw.githubusercontent.com/adetouun/HR-Workforce-Analytics-Dashboard/refs/heads/main/HR%20Workforce%20Analytics%20%20Dashboard.png)
+
+
+  
+
 ## 🎯 Strategic Recommendations
 
 Based on these validated insights, the following actions are recommended for HR Leadership:
