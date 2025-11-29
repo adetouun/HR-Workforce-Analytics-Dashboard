@@ -45,13 +45,6 @@ HR Strategy Dashboard divided into three sections:
 
 - *Dashboard Visual*: Prominent Red Highlighted KPI Card ensures this data governance issue receives immediate attention.
 
-  ## 📊 Dashboard Overview
-
-<p align="center">
-  <img src="./dashboard.png" width="800" alt="Dashboard screenshot"/>
-</p>
-
-
 **2. 🌍 Distribution & Investment**
 
 - **Departmental Balance**: The distribution across departments is relatively even, with two specific outliers:
