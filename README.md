@@ -59,7 +59,7 @@ HR Strategy Dashboard divided into three sections:
 
 - **Talent Uplift Opportunity**: 216 employees are rated Poor. Focusing development efforts here is key to boosting overall capability (Poor is the largest single group of performers).
 
-- *Dashboard Visual*: The Column Chart shows that 'Poor' is the largest single segment of performers
+- *Dashboard Visual*: The Column Chart shows that 'Poor' is the largest single segment of performers.
 
 ## 🎯 Strategic Recommendations
 
