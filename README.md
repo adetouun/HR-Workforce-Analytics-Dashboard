@@ -2,6 +2,9 @@
 
 (Excel Cleaning + Power BI Visualization)
 
+## ✍️ Author 
+Authored By: Zaynab Adewoyin
+
 ## 🏆 Project Summary
 
 A complete HR analytics project focusing on operational efficiency, salary alignment, and performance value.
