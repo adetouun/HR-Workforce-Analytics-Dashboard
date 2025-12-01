@@ -68,6 +68,9 @@ The raw dataset contained several data quality issues:
 
 - Salary Efficiency Patterns
 
+## Dashboard Overview
+![Dashboard Preview](https://raw.githubusercontent.com/adetouun/HR-Workforce-Analytics-Dashboard/refs/heads/main/HR%20Workforce%20Analysis%20Dashboard.png)
+
 ## 📈 Key Insights
 ### 1. ⚠ CRITICAL FINANCIAL LEAKAGE
 
