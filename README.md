@@ -1,87 +1,126 @@
-# 📊 HR Workforce Analytics Dashboard
+# 📊 HR Workforce & Salary Performance Dashboard
 
-This project demonstrates an end-to-end data analysis workflow, using Microsoft Excel as the exclusive tool for cleaning, feature engineering, and visualization.
-The core objective was to transform a raw, messy HR dataset (1,020 records) into a strategic, actionable dashboard that addresses critical business questions regarding workforce health and performance.
+(Excel Cleaning + Power BI Visualization)
 
-## 🚀 Deliverable
+## 🏆 Project Summary
 
-HR Strategy Dashboard divided into three sections:
+A complete HR analytics project focusing on operational efficiency, salary alignment, and performance value.
+Raw data was cleaned in Excel, transformed with calculated fields, and visualized in a Power BI dashboard that uncovers critical workforce and financial gaps.
 
-- **Status Check** – Monitors employee statuses
+## ⭐ Full Project Overview
 
-- **Distribution** – Shows workforce and salary spread across departments  
+This project provides an actionable view of HR workforce health by linking employee status, salary spend, and performance outcomes.
+The dashboard enables HR decision-makers to identify cost leakage, staffing imbalance, and talent development priorities.
 
-- **Performance** – Evaluates employee performance and compensation equity
+## 🧽 Data Cleaning & Transformation (Excel Only)
 
-## 🧽 Data Cleaning & Transformation
+The raw dataset contained several data quality issues:
 
-**Challenges**:
+- Merged Department–Region fields
 
-- Merged columns (e.g., DevOps-California)
+- Missing or incorrectly formatted salary values
 
-- Missing salary values
+- Numeric fields stored as text
 
-- Inconsistent numeric and string formats
+- Irregular phone and ID formats
 
-**Excel Solutions**:
+- Inconsistent performance score formats
 
-- Text-to-Columns / Formulas: Split Department_Region
+### ✔ Excel Methods Used
 
-- Data Cleaning: Cleaned phone numbers and salaries using SUBSTITUTE and VALUE
+- Text-to-Columns → Split Department & Region
 
-- Feature Engineering:
+- SUBSTITUTE + VALUE → Clean salary, phone, and ID fields
 
-  -  Performance Grade (1–4)
+- IF formulas → Create Performance Grades (1–4)
 
-  -  Years Spent (tenure)
+- Bucketization → Age Groups, Salary Bands, Tenure Groups
 
-  -  Salary Band (Low / Medium / High)
+- Pivot Tables → Validate totals before importing to Power BI
+
+## 📌 Dashboard Structure
+### 1️⃣ Operational Efficiency & Costs (Main Story)
+
+- Total Salary Spend ($85M)
+
+- Average Performance Grade (2.58)
+
+- Salary Spend by Employee Status
+
+- Active / Pending / Inactive Distribution
+
+### 2️⃣ Workforce Distribution (Organizational View)
+
+- Employee Count by Department
+
+- Total Salary Spend by Department
+
+- Workforce Spread Across Functions
+
+### 3️⃣ Performance & Value (Strategic View)
+
+- Average Salary by Age Group & Performance Level
+
+- Performance Grade Distribution
+
+- Salary Efficiency Patterns
 
 ## 📈 Key Insights
+### 1. ⚠ CRITICAL FINANCIAL LEAKAGE
 
-**1. ⚠️ Operational Status Alert**
+- A large share of the $85M salary spend goes to Pending (35.2%) and Inactive (29.7%) employees.
 
-- **CRITICAL DATA QUALITY ISSUE**: 34.9% (356 employees) are marked with a Pending status. This compromises all calculations for Active Headcount and Attrition.
+- This indicates a major operational breakdown and direct salary waste.
 
-- *Dashboard Visual*: Prominent Red Highlighted KPI Card ensures this data governance issue receives immediate attention.
+### 2. 🧑‍🤝‍🧑 Investment Concentration
 
-**2. 🌍 Distribution & Investment**
+- DevOps and Sales account for the highest salary expenditure and employee count.
 
-- **Departmental Balance**: The distribution across departments is relatively even, with two specific outliers:
+- Requires validation to ensure spending aligns with productivity.
 
-- **Investment Focus**: Cloud Tech has the lowest headcount (146 employees).
+- Cloud Tech is significantly understaffed—creating a potential capability gap.
 
-- **Largest Department**: Devops has the highest headcount (189 employees).
+### 3. 💰 Talent Value Proposition
 
-- *Dashboard Visual*: The Horizontal Bar Chart makes the low headcount of Cloud Tech immediately visible for strategic discussion.
+- Employees aged 25–30 show the highest average performance grade, suggesting the best return on salary investment.
 
-**3. ⚖️ Performance & Compensation Equity**
+- Ages 36–40 earn the highest salaries, requiring periodic performance validation to ensure compensation alignment.
 
-- **Talent Uplift Opportunity**: 216 employees are rated Poor. Focusing development efforts here is key to boosting overall capability (Poor is the largest single group of performers).
+### 4. 🎯 Talent Development Priority
 
-- *Dashboard Visual*: The Column Chart shows that 'Poor' is the largest single segment of performers.
+- Poor + Below Average performers (Grades 1 & 2) make up the largest performance group.
 
-  ## Dashboard Overview
-
-![HR Workforce Analytics Dashboard](https://raw.githubusercontent.com/adetouun/HR-Workforce-Analytics-Dashboard/refs/heads/main/HR%20Workforce%20Analytics%20%20Dashboard.png)
-
-
-  
+- Targeted development programs can significantly raise the average performance score of 2.58.
 
 ## 🎯 Strategic Recommendations
+### 1. PRIORITY: Salary Governance & Leakage Control
 
-Based on these validated insights, the following actions are recommended for HR Leadership:
+- Immediately audit all Inactive and Pending employees.
 
-1. Data Governance Priority: Initiate an immediate audit to resolve the 356 Pending records, restoring integrity to all key workforce metrics.
+- Enforce HR-Finance approval workflows to prevent salary spend on non-active staff.
 
-2. Strategic Staffing Review: Launch a targeted recruitment drive for the Cloud Tech department to address low staffing, mitigating future technological risk.
+### 2. Talent Development Program
 
-3. Targeted Training: Implement performance coaching and specialized training for the 216 employees currently categorized as 'Poor' to boost overall organizational capability.
+- Implement coaching and performance improvement plans for low performers.
+
+- Introduce KPIs, learning plans, and quarterly evaluations.
+
+### 3. Strategic Staffing & Workforce Planning
+
+- Increase staffing for Cloud Tech to reduce organizational risk.
+
+- Focus recruitment on the 25–30 age group, which delivers the best performance value.
+
+### 4. Departmental Cost Validation
+
+- Validate high salary spend in DevOps and Sales against actual business output.
+
+- Audit smaller departments for disproportionate salary costs.
 
 ## 🛠 Tools & Technologies
-
-- Data Preparation & Analysis: Microsoft Excel (Formulas, Functions, Pivot Tables, Pivot Charts)
-
-- Visualization: Excel dashboards 
-
-- Documentation: Markdown
+| Task | Tool |
+| :--- | :--- |
+| Data Cleaning | Microsoft Excel |
+| Feature Engineering | Excel Formulas |
+| Visualization | Power BI |
+| Documentation | Markdown |
